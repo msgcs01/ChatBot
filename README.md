@@ -1,13 +1,59 @@
-# React + Vite
+# Education Chatbot Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This project is an **AI-powered education chatbot application** designed to assist students in their learning journey. It provides interactive learning features, instant support, and a user-friendly experience.
 
-Currently, two official plugins are available:
+## Features
+- **AI-Powered Chatbot**: Intelligent chatbot to answer students' queries.
+- **Interactive Learning**: Engage with quizzes, flashcards, and study materials.
+- **24/7 Assistance**: Instant help at any time.
+- **Responsive Design**: Fully mobile-friendly and optimized UI using Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **Frontend**: React.js, Tailwind CSS
+- **Routing**: React Router
+- **State Management**: useState (for form handling, chatbot interactions, etc.)
 
-## Expanding the ESLint configuration
+## Installation & Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ChatBot.git
+   cd your-repo-name
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm start
+   ```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# ChatBot" 
+## Project Structure
+```
+/education-chatbot-app
+│── /src
+│   │── /components
+│   │   │── Navbar.js
+│   │   │── Hero.js
+│   │   │── Services.js
+│   │   │── ChatApp.js
+│   │   │── Contact.js
+│   │   │── Footer.js
+│   │── App.js
+│── public
+│── package.json
+│── README.md
+```
+
+## Usage
+- Navigate to the homepage to explore available services.
+- Access the AI chatbot for learning assistance.
+- Use interactive learning tools to enhance your study experience.
+- Contact support via the Contact Us section.
+
+## Contributing
+Feel free to contribute by submitting issues or pull requests.
+
+## License
+This project is licensed under the MIT License.
